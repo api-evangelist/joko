@@ -1,8 +1,13 @@
 aid: joko
 name: Joko
-description: 'Joko is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Joko is a French fintech company operating a consumer cashback, rewards, and
+  savings application that connects shoppers with more than 3,500 partner brands online and in
+  physical stores. Users earn cashback and automatically apply promo codes through the Joko iOS
+  and Android apps and browser extensions (Chrome, Firefox, Safari), while also managing budgets,
+  loyalty cards, gift cards, and split (3x installment) payments. Joko also runs a business
+  solution offering brand partnerships and consumer market research. Backed by Partech, Joko is
+  tracked in the API Evangelist network as a company profile; it publishes no public developer
+  API, developer portal, or API documentation at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/joko/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,32 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://app.joko.com/logo192.png
 tags:
 - Company
 - Financial Services
+- Fintech
+- Cashback
+- Rewards
+- Loyalty
+- Consumer
+- Payments
+- Retail
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/joko-domain-security.yml
 - type: Website
   url: https://home.joko.com/
+- type: Support
+  url: https://support.joko.com/fr
+- type: TermsOfService
+  url: https://home.joko.com/fr/legal/conditions-generales
+- type: PrivacyPolicy
+  url: https://home.joko.com/fr/legal/politique-de-confidentialite
+- type: Login
+  url: https://app.joko.com/auth/sign-in
+- type: Business
+  url: https://home.joko.com/fr/business
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
