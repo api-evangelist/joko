@@ -43,7 +43,7 @@ modified: '2026-07-19'
 image: https://app.joko.com/logo192.png
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Cashback
 - Rewards
@@ -63,6 +63,7 @@ tags_raw:
 - Payments
 - Retail
 - France
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
